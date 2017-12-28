@@ -1,0 +1,31 @@
+{
+  "name": "crud-node-express-mongoose-api",
+  "version": "1.0.0",
+  "description": "Contacts CRUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdriGHumanes/crud-node-express-mongoose-api.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "AdriGHumanes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdriGHumanes/crud-node-express-mongoose-api/issues"
+  },
+  "homepage": "https://github.com/AdriGHumanes/crud-node-express-mongoose-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
