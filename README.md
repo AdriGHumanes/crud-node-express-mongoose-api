@@ -3,8 +3,13 @@ RESTful CRUD (Create, Retrieve, Update, Delete) API with Node.js, Express and Mo
 
 # Getting started
 
-Ensure that MongoDB is installed (As a Windows service in my case) and running.
+Ensure that MongoDB is installed and running.
+```[language]
+"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe"  
+"C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe"
+```
 
+If you have MongoDB installed as a Windows service like me you can run this instead.
 `net start MongoDB`
   
 Then, ensure that Node.js is installed and run these commands:
@@ -24,4 +29,4 @@ Base URL is http://localhost:3000
   * `PUT /contacts/:contactId` Update contact
   * `DELETE /contacts/:contactId` Delete contact
   
-In this case, you can use Postman (https://www.getpostman.com/) to test the API, however, another close goal is to create a web applicacion, using Angular for example, that can consume this API.
+You can use Postman (https://www.getpostman.com/) to test the API, however, another close goal is to create a web applicacion, using Angular for example, that can consume this API.
