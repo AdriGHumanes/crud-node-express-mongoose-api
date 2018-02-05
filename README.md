@@ -9,7 +9,7 @@ Ensure that MongoDB is installed and running.
 "C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe"
 ```
 
-If you have MongoDB installed as a Windows service like me you can run this instead.
+If you have MongoDB installed as a Windows service like me you can run this instead.  
 `net start MongoDB`
   
 Then, ensure that Node.js is installed and run these commands:
