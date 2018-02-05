@@ -26,7 +26,7 @@ mongoose.connection.once('open', function(){
 
 //Simple route
 app.get('/', function(req, res){
-	res.json({"message":"Hello World!"});
+	res.json({"message":"This is the base URL of the API."});
 });
 
 //Routes
